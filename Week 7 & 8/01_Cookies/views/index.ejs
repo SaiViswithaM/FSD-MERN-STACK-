@@ -1,0 +1,1 @@
+<h2>Cookie Demo</h2><form action="/set-cookie" method="POST"><input name="username" placeholder="Enter username" required><button>Save Cookie</button></form><% if(username){ %><h3>Welcome back, <%= username %>!</h3><a href="/clear-cookie">Clear Cookie</a><% } else { %><p>No cookie set.</p><% } %>

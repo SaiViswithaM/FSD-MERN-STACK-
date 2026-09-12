@@ -1,0 +1,1 @@
+<h2>Register</h2><% if(error){ %><p style="color:red"><%= error %></p><% } %><form action="/register" method="POST"><input name="username" placeholder="Username" required><br><input type="password" name="password" minlength="4" placeholder="Password" required><br><button>Register</button></form><a href="/login">Login</a>
